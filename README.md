@@ -59,6 +59,8 @@ psql -d my_spatial_db -c "CREATE EXTENSION postgis; CREATE EXTENSION pgrouting;"
 
 Load the Shapefile Data:
 
+You can find public domain map datasets here: https://www.naturalearthdata.com/
+
 Convert your .shp file to SQL and load it into the database. Assuming you have shp2pgsql installed:
 
 ```bash
